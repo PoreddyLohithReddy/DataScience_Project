@@ -18,12 +18,12 @@ The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com
 - `JP_Sales`: Sales in Japan (in millions)
 - `Other_Sales`: Sales in the rest of the world (in millions)
 - `Global_Sales`: Total worldwide sales (in millions)
-- `Critic_Score`:Scores given by critics
-- `Critic_Count`: number of critics 
-- `User_Score`: Scores given by user
-- `User_Count`: Total users of the game
-- `Developer`: Developer of game
-- `Rating`: Rating for the game
+- `Critic_Score`: Aggregate score compiled by Metacritic staff
+- `Critic_Count`: The number of critics used in coming up with the Critic_score
+- `User_Score`: Score by Metacritic's subscribers
+- `User_Count`: Number of users who gave the user_score
+- `Developer`: Party responsible for creating the game
+- `Rating` : Ratings given to the game
 
 After cleaning the data we are left with 10 features and 16412 rows of data. The features from Critic_score to Rating are dropped due to large amount of missing values in them.
 
