@@ -8,8 +8,6 @@ The data was collected from kaggle website.
 The dataset contains 16 columns and approximately 16446 rows. Each row represents a single video game and includes information such as the game's title, release year, platform, genre, publisher, and sales data in North America, Europe, Japan, and other regions.
 
 The columns in the dataset are as follows:
-
-- Rank: Ranking of the game based on global sales
 - Name: The name of the game
 - Platform: The console/platform on which the game was released
 - Year_of_Release: The year the game was released
@@ -25,8 +23,9 @@ The columns in the dataset are as follows:
 - User_Score: Score by Metacritic's subscribers
 - User_Count: Number of users who gave the user_score
 - Developer: Party responsible for creating the game
+- Rating : Rating given to the game
 
 ## Data Preprocessing
 The dataset required some preprocessing before it could be used for analysis. This included filling missing values with appropriate values, converting some columns to the correct data type, and dropping some unnecessary columns.
-For this dataset 6 columns were dropped.
+For this dataset 6 columns were dropped. The features dropped are from Critic_Score to Rating as most of the values in those features were missing.
 
